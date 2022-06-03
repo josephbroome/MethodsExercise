@@ -20,6 +20,29 @@ internal class Program
         Console.WriteLine($" There was once a person named {userName}. His favorite band was {bandName}");
         Console.WriteLine($" {userName} favorite song from {bandName} was {songName} and {userName}'s favorite color was {colorName}");
 
+        Console.WriteLine("give me a number to add");
+        int num1 = int .Parse(Console.ReadLine());
+
+        Console.WriteLine("give me number to add to the first one");
+
+        int num2 = int .Parse(Console.ReadLine());
+
+        Console.WriteLine(Sum(num1, num2));
+
+        Console.WriteLine("give me a number");
+        int x = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("give me a number to multpily with the first");
+        int y = int.Parse(Console.ReadLine());  
+
+        Console.WriteLine($"the product is {(Multiply(x, y))}");
+
+       Console.WriteLine( Sum1(1, 2, 3, 4));
+
+        Console.WriteLine( Sum2(1, 10, 11, 12));
+
+
+   
     }
     public static int Sum(int num1, int num2)
     {
