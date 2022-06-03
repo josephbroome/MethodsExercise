@@ -7,53 +7,7 @@ internal class Program
         Console.WriteLine("Hello, What is your name?");
         string userName = Console.ReadLine();
 
-        //Console.WriteLine("What is your dream car?");
-        //string carName = Console.ReadLine();
-
-        //Console.WriteLine("What color is your dream car?");
-        //string carColor = Console.ReadLine();
-
-        //Console.WriteLine("Where is one place you always dreamed of visiting?");
-        //string dreamPlace = Console.ReadLine();
-
-
-        //Console.WriteLine($"There was once a person named {userName}");
-        //Console.WriteLine($"{userName} was very rich and owned a {carColor} {carName}.");
-        //Console.WriteLine($"{userName} would always drive his {carName} around {dreamPlace}");
-
-        //Console.WriteLine("Give me a number to add");
-        //int num1 = int.Parse(Console.ReadLine());
-
-        //Console.WriteLine("Give me a number to add to the first number");
-        //int num2 = int.Parse(Console.ReadLine());
-
-        //int sum = Sum(num1, num2);
-        //Console.WriteLine($" the sum is {sum}");
-
-        //int sum1 = Sum1(2, 4);
-        //Console.WriteLine($"The sum is {sum1}");
-        //int sum2 = Sum2(2, 4, 6);
-        //Console.WriteLine($"The sume is {sum2}");
-        //int sum3 = Sum3(1, 1, 1, 1, 1);
-        //Console.WriteLine($"The sum is {sum3}");
-
-        //Console.WriteLine("Give me a number");
-        //num1 = int.Parse(Console.ReadLine());
-
-        //Console.WriteLine("Give me a number to multiply with the first one");
-        //num2 = int.Parse(Console.ReadLine());
-
-        //int product = Multiply(num1, num2);
-        //Console.WriteLine($"The product is {product}");
-
-        //int answer1 = Addition(500, 200);
-        //Console.WriteLine(answer1);
-        //int answer2 = Addition(1000, 200000);
-
-        //AgeChecker();
-
-        //GoodEvening();
-
+       
         Console.WriteLine("What is your favorite band?");
         string bandName = Console.ReadLine();
 
